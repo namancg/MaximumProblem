@@ -2,13 +2,13 @@ package com.bridgelabz.maximumproblem;
 
 public class MaximumProblem {
 	public static void main(String args[]) {
-	Integer integer1=30, integer2=88, integer3=-54, max=0;
-	max = integer1;
-	if(integer2.compareTo(max) > 0)
-		max=integer2;
-	if(integer3.compareTo(max) > 0)
-		max=integer3;
+	Float float1=30.98f, float2=88.86f, float3=-54f, max;
+	max = float1;
+	if(float2.compareTo(max) > 0)
+		max=float2;
+	if(float3.compareTo(max) > 0)
+		max=float3;
 	
-	System.out.println("The max of "+integer1+", "+integer2+" & "+integer3+" is: "+max);
+	System.out.println("The max of \n"+float1+",\n "+float2+" &\n "+float3+" is: "+max);
 }
 }
